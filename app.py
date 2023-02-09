@@ -6,7 +6,7 @@ from callbacks import get_callbacks
 from utils import MBTI
 
 app = Dash(__name__)
-
+server = app.server
 
 def user_controls(): #사용자로부터 조작을 입력받음
     return html.Div(
